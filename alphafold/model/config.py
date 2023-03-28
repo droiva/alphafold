@@ -155,7 +155,7 @@ CONFIG = ml_collections.ConfigDict({
             },
             'max_extra_msa': 1024,
             'msa_cluster_features': True,
-            'num_recycle': 3,
+            'num_recycle': 9,
             'reduce_msa_clusters_by_max_templates': False,
             'resample_msa_in_recycling': True,
             'template_features': [
@@ -455,7 +455,7 @@ CONFIG = ml_collections.ConfigDict({
                 'weight': 2.0
             },
         },
-        'num_recycle': 3,
+        'num_recycle': 9,
         'resample_msa_in_recycling': True
     },
 })
